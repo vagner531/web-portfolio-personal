@@ -3,13 +3,13 @@
 	background:#8257e6
 }
  .sliding-menu a i , .sliding-menu a.back:before , .submen-dec:before  , .btn:after , .btn:hover , .inline-facts-wrap .num   , .testi-number , .teti-link , .testi-item p:before , .tc-button , .serv-number , .services-item i  , .card-item_num , .card-item i , .card-item h4 , .card-link , .resume-item h5  , .resume-date   , .grid-det_category a , .grid-media-zoom , .gallery-filters a  , .grid-det_link i  , .box-media-zoom , .content-nav li a.ln i , .content-nav li a.rn i , .search-submit  , .post-tags li a, .tagcloud li a  , .widget-posts-date i   , .cat-item   span , .cat-item a:hover , .post-date i    , .post-opt li i , .comment-num  , .comment-reply-link i , .comment-meta , .to_contacts i  , .cb_dec:before , .ss-button:hover , .lg-actions .lg-next, .lg-actions .lg-prev{
-	color:#1ba358;
+	color:#fdad00;
 }
 .box-text-wrap_item li:before , .resume-item:before , .chart-dec span {
 	border-color: #8257e6
 }
 .gradient-bg    {
-	background: #1ba358;
+	background: #fdad00;
 }
 .gradient-bg2, .page-subtitle a   {
 	background: #8257e6;
