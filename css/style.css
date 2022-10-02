@@ -918,11 +918,20 @@ nav.nav-inner {
 
 @media only screen and (max-width: 844px) {
 	.row {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: -15px;
+    margin-right: -15px;
 }
+.section__border {
+	/* display: flex; */
+	flex-wrap: wrap;
+	justify-content: center;
+	/* justify-content: space-between; */
+}
+.section-title:before {
+	margin-top: 1rem;
 }
 
+}
 @media only screen and (max-width: 896px) and (min-width: 414px) {
 	.section__border {
     flex-wrap: wrap;
