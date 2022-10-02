@@ -1153,6 +1153,9 @@ section {
 	position: relative;
 	border-top: 1px solid rgba(255,255,255,0.1);
 }
+.server-icon {
+	width: 52px;
+}
 .serv-list:before {
 	content: '';
 	position: absolute;
