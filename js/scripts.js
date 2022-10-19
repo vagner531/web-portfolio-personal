@@ -227,17 +227,17 @@ function initVbook() {
     });
     //   mailchimp------------------
     $("#subscribe").ajaxChimp({
-        language: "eng",
-        url: "https://gmail.us1.list-manage.com/subscribe/post?u=1fe818378d5c129b210719d80&amp;id=a2792f681b"
+        language: "br",
+        // url: "https://gmail.us1.list-manage.com/subscribe/post?u=1fe818378d5c129b210719d80&amp;id=a2792f681b"
     });
     $.ajaxChimp.translations.eng = {
         submit: "Submitting...",
-        0: '<i class="fa fa-check"></i> We will be in touch soon!',
-        1: '<i class="fa fa-warning"></i> You must enter a valid e-mail address.',
-        2: '<i class="fa fa-warning"></i> E-mail address is not valid.',
-        3: '<i class="fa fa-warning"></i> E-mail address is not valid.',
-        4: '<i class="fa fa-warning"></i> E-mail address is not valid.',
-        5: '<i class="fa fa-warning"></i> E-mail address is not valid.'
+        0: '<i class="fa fa-check"></i> Nós entraremos em contato em breve!',
+        1: '<i class="fa fa-warning"></i> Você deve inserir um endereço de email válido.',
+        2: '<i class="fa fa-warning"></i> O endereço de email não é válido.',
+        3: '<i class="fa fa-warning"></i> O endereço de email não é válido.',
+        4: '<i class="fa fa-warning"></i> O endereço de email não é válido.',
+        5: '<i class="fa fa-warning"></i> O endereço de email não é válido.'
     };
     $(".scr-bar_container").on("scroll", function() {
         var c = $(this).scrollTop();
